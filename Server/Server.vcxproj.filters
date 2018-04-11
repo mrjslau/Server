@@ -13,16 +13,13 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Client">
+    <Filter Include="Source Files\Server">
       <UniqueIdentifier>{19942f3c-92ae-42cb-b8b3-11720922ed24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Server.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Client.c">
-      <Filter>Source Files\Client</Filter>
+      <Filter>Source Files\Server</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
